@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Rose Day 🌹</title>
+
+<style>
+body{
+  margin:0;
+  font-family:'Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#ff758c,#ff7eb3);
+  color:white;
+  text-align:center;
+  overflow:hidden;
+}
+
+.container{
+  padding:40px 20px;
+}
+
+h1{
+  font-size:2.4em;
+  margin-bottom:10px;
+}
+
+h2{
+  font-weight:normal;
+  margin-bottom:25px;
+}
+
+.items{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+.item{
+  font-size:45px;
+  cursor:pointer;
+  transition:transform 0.2s;
+}
+
+.item:hover{
+  transform:scale(1.2);
+}
+
+.message{
+  margin-top:30px;
+  font-size:1.15em;
+  min-height:70px;
+}
+
+.question{
+  display:none;
+  margin-top:25px;
+}
+
+button{
+  background:white;
+  color:#ff4d6d;
+  border:none;
+  padding:10px 22px;
+  margin:10px;
+  border-radius:25px;
+  font-size:1em;
+  cursor:pointer;
+}
+
+.end{
+  display:none;
+  margin-top:30px;
+  font-size:1.2em;
+  font-weight:
